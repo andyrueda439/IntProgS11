@@ -1,5 +1,3 @@
-Archivo sugerido: ejercicio3_suma_digitos.py
-
 def suma_digitos_potencia(base, exponente):
     potencia = base ** exponente
     suma = sum(int(digito) for digito in str(potencia))
